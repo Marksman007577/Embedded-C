@@ -1,0 +1,11 @@
+12:30:30 **** Rebuild of configuration Debug for project structPacket ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:46:34: warning: format '%I64u' expects argument of type 'long long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+    printf("Size of struct is %I64u\n",sizeof(packet));
+                                  ^
+gcc -o structPacket.exe main.o 
+
+12:30:30 Build Finished. 0 errors, 1 warnings. (took 464ms)
+

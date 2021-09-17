@@ -1,0 +1,11 @@
+12:30:35 **** Rebuild of configuration Debug for project type_casting ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o type_cast.o "..\\type_cast.c" 
+..\type_cast.c: In function 'main':
+..\type_cast.c:7:25: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+    unsigned char data = 0x1FFFFFFFA0B0 + 0x1245;
+                         ^~~~~~~~~~~~~~
+gcc -o type_casting.exe type_cast.o 
+
+12:30:35 Build Finished. 0 errors, 1 warnings. (took 464ms)
+

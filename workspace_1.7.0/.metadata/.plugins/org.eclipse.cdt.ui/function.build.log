@@ -1,0 +1,7 @@
+12:30:22 **** Rebuild of configuration Debug for project function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
+gcc -o function.exe function.o 
+
+12:30:23 Build Finished. 0 errors, 0 warnings. (took 579ms)
+

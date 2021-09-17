@@ -1,0 +1,8 @@
+17:40:16 **** Incremental Build of configuration Debug for project ifelseifTax ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ifelseifTax.exe main.o 
+17:41:25 **** Incremental Build of configuration Debug for project ifelseifTax ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ifelseifTax.exe main.o 
